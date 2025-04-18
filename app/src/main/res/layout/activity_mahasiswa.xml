@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#F2F2F2">
+
+    <!-- Foto bulat -->
+    <ImageView
+        android:id="@+id/foto_mahasiswa"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/saya"
+        android:layout_marginBottom="16dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/circle_background"
+        />  <!-- Ganti dengan foto kamu -->
+
+
+    <!-- Data Mahasiswa -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DATA MAHASISWA"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="12dp"
+        android:background="#00C8C8"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AGGLYRA PASERU"
+        android:padding="12dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="22411073"
+        android:padding="12dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MOBILE COMPUTING"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+</LinearLayout>
